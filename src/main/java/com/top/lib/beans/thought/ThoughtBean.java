@@ -9,6 +9,7 @@ public class ThoughtBean {
 	private Integer postId;
 	private String fullcontent;
 	private String previewimage;
+	private String sourceFormat;
 
 
 	
@@ -66,6 +67,14 @@ public class ThoughtBean {
 
 	public void setPreviewimage(String previewimage) {
 		this.previewimage = previewimage;
+	}
+
+	public String getSourceFormat() {
+		return sourceFormat;
+	}
+
+	public void setSourceFormat(String sourceFormat) {
+		this.sourceFormat = sourceFormat;
 	}
 
 	
