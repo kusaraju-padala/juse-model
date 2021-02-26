@@ -1,22 +1,20 @@
 package com.top.lib.beans.post;
 
+/**
+ * @author raaza
+ *
+ */
 public class ImageOutputBean {
-	private String regImageUrl;
-	private String thumbImageUrl;
+	
+	private String imageUrl;
 	private String bucketName;
-	private String regImageName;
-	private String thumbImageName;
-	public String getRegImageUrl() {
-		return regImageUrl;
+	private String imageName;
+	
+	public String getImageUrl() {
+		return imageUrl;
 	}
-	public void setRegImageUrl(String regImageUrl) {
-		this.regImageUrl = regImageUrl;
-	}
-	public String getThumbImageUrl() {
-		return thumbImageUrl;
-	}
-	public void setThumbImageUrl(String thumbImageUrl) {
-		this.thumbImageUrl = thumbImageUrl;
+	public void setImageUrl(String imageUrl) {
+		this.imageUrl = imageUrl;
 	}
 	public String getBucketName() {
 		return bucketName;
@@ -24,18 +22,11 @@ public class ImageOutputBean {
 	public void setBucketName(String bucketName) {
 		this.bucketName = bucketName;
 	}
-	public String getRegImageName() {
-		return regImageName;
+	public String getImageName() {
+		return imageName;
 	}
-	public void setRegImageName(String regImageName) {
-		this.regImageName = regImageName;
+	public void setImageName(String imageName) {
+		this.imageName = imageName;
 	}
-	public String getThumbImageName() {
-		return thumbImageName;
-	}
-	public void setThumbImageName(String thumbImageName) {
-		this.thumbImageName = thumbImageName;
-	}
-	
 	
 }

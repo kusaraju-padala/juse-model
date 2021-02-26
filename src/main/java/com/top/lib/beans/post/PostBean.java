@@ -11,9 +11,8 @@ public class PostBean {
 	private Integer languageId;
 	private String postType; //thumbnail, wide, full, poll
 	private String body;
-	private String expandbody;
-	private boolean isExpandable;
 	private ImageOutputBean image;
+	private String sourceUrl;
 	
 	public Integer getPid() {
 		return pid;
@@ -75,17 +74,11 @@ public class PostBean {
 	public void setImage(ImageOutputBean image) {
 		this.image = image;
 	}
-	public String getExpandbody() {
-		return expandbody;
+	public String getSourceUrl() {
+		return sourceUrl;
 	}
-	public void setExpandbody(String expandbody) {
-		this.expandbody = expandbody;
-	}
-	public boolean isExpandable() {
-		return isExpandable;
-	}
-	public void setExpandable(boolean isExpandable) {
-		this.isExpandable = isExpandable;
+	public void setSourceUrl(String sourceUrl) {
+		this.sourceUrl = sourceUrl;
 	}
 
 	
