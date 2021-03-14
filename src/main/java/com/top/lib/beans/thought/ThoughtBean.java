@@ -10,7 +10,7 @@ public class ThoughtBean {
 	private String fullcontent;
 	private String previewimage;
 	private String sourceFormat;
-
+	private Integer thoughtClass;
 
 	
 	public Integer getId() {
@@ -75,6 +75,14 @@ public class ThoughtBean {
 
 	public void setSourceFormat(String sourceFormat) {
 		this.sourceFormat = sourceFormat;
+	}
+
+	public Integer getThoughtClass() {
+		return thoughtClass;
+	}
+
+	public void setThoughtClass(Integer thoughtClass) {
+		this.thoughtClass = thoughtClass;
 	}
 
 	
